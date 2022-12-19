@@ -1,0 +1,120 @@
+header{
+    background-color: #BB8588;
+    color:#EFEBCE;
+    padding: 1rem;
+    margin: -1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header>img{
+    width: 22rem;
+    max-width: 100%;
+}
+nav>a{
+    color:#EFEBCE;
+    background-color: #D8A48F;
+    border: 5px solid #D8A48F;
+    border-radius: 4rem;
+    display: inline-block;
+    margin: 1rem;
+}
+body{
+    font-family: 'Unna', serif;
+    background-color:#EFEBCE;
+}
+form>label{
+    display: block;
+    font-size: 1.5rem;
+    margin: 1rem 0 .25rem;
+}
+form{
+    background-color: #A3A380;
+    color:#EFEBCE;
+    padding: .5rem;
+    border-radius: 3rem;
+    text-align: center;
+}
+input[type=text], [type=email], [type=description], [type=price]{
+    border: 3px solid #D8A48F;
+    border-radius: 2rem;
+    width: calc(100% - 2rem);
+}
+input[type=reset], [type=submit]{
+    font-family: 'Unna', serif;
+    font-size: 1.5rem;
+    padding: .5rem;
+    border-radius: 2rem;
+    border: 3px solid #EFEBCE;
+    background-color: #BB8588;
+    color:#EFEBCE; 
+}
+input [type=picture]{
+    font-family: 'Unna', serif;
+}
+main{
+    background-color: #A3A380;
+    border-radius: 3rem;
+    margin: 25px 15px 15px;
+    padding: 10px;
+}
+div{
+    margin: 3rem;
+}
+div>p{
+    border: 3px solid #D6CE93;
+    background-color: #D6CE93;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+p{
+    text-align: center;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #BB8588;
+    color:#EFEBCE;
+    margin: 1rem -1rem -1rem;
+}
+footer>a{
+    border: 3px solid #D8A48F;
+    border-radius: 2rem;
+    background-color: #D8A48F;
+    color:#EFEBCE;
+}
+.contact>a{
+    border: 3px solid #D6CE93;
+    border-radius: 2rem;
+    background-color: #D6CE93;
+    padding: 1rem;
+    display: inline-block;
+    margin: 0 auto;
+}
+h1{
+    color:#EFEBCE;
+    text-align: center;
+}
+.featured>img{
+    max-width: 20rem;
+}
+.featured{
+    display: block;
+}
+.featured, .contact{
+    text-align: center;
+}
+hr{
+    border-top: 5px solid #EFEBCE;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+@media (min-width: 850px){
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
